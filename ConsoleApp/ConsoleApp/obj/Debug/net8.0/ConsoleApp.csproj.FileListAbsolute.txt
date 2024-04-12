@@ -13,7 +13,7 @@ C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\refint\C
 C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
-C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ClassLibrary.dll
-C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\bin\Debug\net8.0\ClassLibrary.pdb
 C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.AssemblyReference.cache
 C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.Up2Date
+C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\bin\Debug\net8.0\MariaDBCRUD.dll
+C:\Users\btssio\Documents\Ap_Dll\ConsoleApp\ConsoleApp\bin\Debug\net8.0\MariaDBCRUD.pdb

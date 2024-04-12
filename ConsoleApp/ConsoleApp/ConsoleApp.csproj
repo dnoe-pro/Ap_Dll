@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="ClassLibrary">
-      <HintPath>..\..\ClassLibrary\ClassLibrary\bin\Debug\net8.0\ClassLibrary.dll</HintPath>
+    <Reference Include="MariaDBCRUD">
+      <HintPath>..\..\ClassLibrary\ClassLibrary\bin\Debug\net8.0\MariaDBCRUD.dll</HintPath>
     </Reference>
   </ItemGroup>
 

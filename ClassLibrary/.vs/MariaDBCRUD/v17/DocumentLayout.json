@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D582C2-8368-40FB-9667-E5EA29BA03D7}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\classlibrary\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D582C2-8368-40FB-9667-E5EA29BA03D7}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D582C2-8368-40FB-9667-E5EA29BA03D7}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\btssio\\documents\\ap_dll\\classlibrary\\classlibrary\\requete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D582C2-8368-40FB-9667-E5EA29BA03D7}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\requete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Requete.cs",
+              "DocumentMoniker": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\Requete.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Requete.cs",
+              "ToolTip": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\Requete.cs",
+              "RelativeToolTip": "ClassLibrary\\Requete.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAUwGkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T14:25:18.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\Connexion.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Connexion.cs",
+              "ToolTip": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\Connexion.cs",
+              "RelativeToolTip": "ClassLibrary\\Connexion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:39:45.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

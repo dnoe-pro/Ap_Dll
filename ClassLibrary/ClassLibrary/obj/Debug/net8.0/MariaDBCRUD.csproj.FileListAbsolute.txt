@@ -1,0 +1,13 @@
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\bin\Debug\net8.0\MariaDBCRUD.deps.json
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\bin\Debug\net8.0\MariaDBCRUD.dll
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\bin\Debug\net8.0\MariaDBCRUD.pdb
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.csproj.AssemblyReference.cache
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.AssemblyInfoInputs.cache
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.AssemblyInfo.cs
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.csproj.CoreCompileInputs.cache
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.sourcelink.json
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.dll
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\refint\MariaDBCRUD.dll
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\MariaDBCRUD.pdb
+C:\Users\btssio\Documents\Ap_Dll\ClassLibrary\ClassLibrary\obj\Debug\net8.0\ref\MariaDBCRUD.dll

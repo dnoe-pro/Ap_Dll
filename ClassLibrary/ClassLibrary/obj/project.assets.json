@@ -1793,9 +1793,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj",
-      "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\MariaDBCRUD.csproj",
+      "projectName": "MariaDBCRUD",
+      "projectPath": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\MariaDBCRUD.csproj",
       "packagesPath": "C:\\Users\\btssio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\btssio\\Documents\\Ap_Dll\\ClassLibrary\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
