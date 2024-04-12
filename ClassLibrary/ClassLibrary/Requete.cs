@@ -1,7 +1,4 @@
 ﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
 
 namespace MariaDBCRUD
 {
@@ -9,14 +6,14 @@ namespace MariaDBCRUD
     {
         public static void Main()
         {
-
+            Console.WriteLine("test");
         }
 
         //-------------------
         // Database
         //-------------------
-
-        // Retrieve database (recuperation)
+        
+        // Retrieve database (récuperation)
         private static List<string> Get_AllDatabases(Connexion connexion)
         {
             List<string> databases = new List<string>();
@@ -33,12 +30,27 @@ namespace MariaDBCRUD
             }
             return databases;
         }
-        // Select database
-
-        private static SelectData(string tableName, Dictionary<string, object> data, Connexion connexion)
+        // Select database (ne marche pas tres bien) 
+        private static List<Dictionary<string, object>> SelectDatabase(string query, Connexion connexion)
         {
-            
-
+            List<Dictionary<string, object>> results = new List<Dictionary<string, object>>();
+            using (MySqlCommand cmd = new MySqlCommand(query, connexion.get_Connection()))
+            {
+                using (MySqlDataReader rdr = cmd.ExecuteReader())
+                {
+                    while (rdr.Read())
+                    {
+                        Dictionary<string, object> row = new Dictionary<string, object>();
+                        for (int i = 0; i < rdr.FieldCount; i++)
+                        {
+                            
+                            row.Add(rdr.GetName(i), rdr.GetValue(i));
+                        }
+                        results.Add(row);
+                    }
+                }
+            }
+            return results;
         }
         //-------------------
         // Table
@@ -63,7 +75,7 @@ namespace MariaDBCRUD
             return tables;
         }
         // select table
-        private static List<Dictionary<string, object>> ExecuteSelectQuery(string query, Connexion connexion)
+        private static List<Dictionary<string, object>> SelectTable(string query, Connexion connexion)
         {
             List<Dictionary<string, object>> results = new List<Dictionary<string, object>>();
             using (MySqlCommand cmd = new MySqlCommand(query, connexion.get_Connection()))
@@ -85,7 +97,7 @@ namespace MariaDBCRUD
         }
 
         // Insert table 
-        private static void InsertData(string tableName, Dictionary<string, object> data, Connexion connexion)
+        private static void InsertTable(string tableName, Dictionary<string, object> data, Connexion connexion)
         {
             string columns = string.Join(", ", data.Keys);
             string values = string.Join(", ", data.Values);
@@ -97,7 +109,7 @@ namespace MariaDBCRUD
         }
 
         // Update table 
-        private static void UpdateData(string tableName, Dictionary<string, object> newData, string condition, Connexion connexion)
+        private static void UpdateTable(string tableName, Dictionary<string, object> newData, string condition, Connexion connexion)
         {
             List<string> updateList = new List<string>();
             foreach (var kvp in newData)
@@ -113,7 +125,7 @@ namespace MariaDBCRUD
         }
 
         // Delete table
-        private static void DeleteData(string tableName, string condition, Connexion connexion)
+        private static void DeleteTable(string tableName, string condition, Connexion connexion)
         {
             string query = $"DELETE FROM {tableName} WHERE {condition}";
             using (MySqlCommand cmd = new MySqlCommand(query, connexion.get_Connection()))

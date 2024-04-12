@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MariaDBCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bee36c53752a49461b9259cce1843c87c9cbf63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64e8b5879e2dc9a3c2e9b84cfe7897c85dcdd8fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MariaDBCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MariaDBCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
