@@ -12,8 +12,8 @@ namespace MariaDBCRUD
         //-------------------
         // Database
         //-------------------
-        
-        // Retrieve database (récuperation)
+
+        // Retrieve/récuperation database
         private static List<string> Get_AllDatabases(Connexion connexion)
         {
             List<string> databases = new List<string>();
@@ -56,7 +56,7 @@ namespace MariaDBCRUD
         // Table
         //-------------------
 
-        // Retrieve all tables ()
+        // Retrieve all tables 
         private static List<string> Get_AllTables(string databaseName, Connexion connexion)
         {
             List<string> tables = new List<string>();
@@ -75,7 +75,7 @@ namespace MariaDBCRUD
             return tables;
         }
         // select table
-        private static List<Dictionary<string, object>> SelectTable(string query, Connexion connexion)
+        private static List<Dictionary<string, object>> SelectTable(string databaseName, string query, Connexion connexion)
         {
             List<Dictionary<string, object>> results = new List<Dictionary<string, object>>();
             using (MySqlCommand cmd = new MySqlCommand(query, connexion.get_Connection()))

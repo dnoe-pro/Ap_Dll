@@ -23,7 +23,7 @@ namespace MariaDBCRUD
         {
             string pilote = "server=" + this.serveur + "; uid=" + this.id + " ; pwd=" + this.mdp + ";";
             _connection = new MySqlConnection(pilote);
-            _connection.Open();     // _connection.Close();
+            //_connection.Open();     _connection.Close();
         }
 
         public Connexion() { }

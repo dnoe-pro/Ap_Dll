@@ -1,7 +1,24 @@
 ﻿using MariaDBCRUD;
+using MySql.Data.MySqlClient;
 
 
-Console.WriteLine(Requete.Main);
 
 
-Console.ReadKey();
+try
+{
+    MySqlConnection Connect = new MySqlConnection();
+    Connect.Open();
+
+    
+    Console.WriteLine("==========================");
+    Console.ReadLine();
+
+
+}
+catch (Exception e)
+{
+    Console.WriteLine("Erreur", e);
+}
+
+
+
